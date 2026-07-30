@@ -1,4 +1,5 @@
-'''student_age = 21                    # Integer
+#1.VARIABLE DECLRATION
+student_age = 21                    # Integer
 student_percentage = 78.5           # Float
 student_name = "Anjani"             # String
 is_graduated = True                 # Boolean
@@ -11,9 +12,7 @@ print("Name:", student_name)
 print("Graduated:", is_graduated)
 print("Skills:", student_skills)
 
-
-
-
+#2.VARIABLE SWAPPING
 def swap_values(a, b):
     a, b = b, a
     return a, b
@@ -33,9 +32,7 @@ x, y = swap_values(x, y)
 print("After swapping:")
 print("x =", x)
 print("y =", y)
-
-
-
+#3.SIMPLE CALCULATOR
 print("\nTASK 3 - SIMPLE CALCULATOR")
 
 num1 = float(input("Enter first number: "))
@@ -62,10 +59,7 @@ else:
 
 print("Result:", result)
 
-
-
-
-
+#4.VARAIBLE SCOPE
 print("\nTASK 4 - VARIABLE SCOPE")
 
 def outer_function():
@@ -83,9 +77,9 @@ def outer_function():
     print("After inner function:", message)
 
 
-outer_function()'''
+outer_function()
 
-
+#5.FORMATTEDSTRINGS
 
 print("\nTASK 5 - FORMATTED STRING")
 
