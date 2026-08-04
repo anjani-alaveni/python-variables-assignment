@@ -118,7 +118,7 @@ for i in range(rows):
 #Letter I
 print("Letter I")
 rows=7
-columns=5
+columns=6
 for i in range(rows):
   for j in range(columns):
     if ((i==0 and j>=0)or
